@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="3" name="AccountTransferServiceTest" time="0.612" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2018.2.7"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.60-b23"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/cheikhniass/Documents/workspace/com.money.transfer"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/cheikhniass/Documents/workspace/com.money.transfer"/>
+    <property name="java.runtime.version" value="1.8.0_60-b27"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/16/jrfvnb_15hd9dkpdpcmqqp6w0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/cheikhniass/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/cheikhniass"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="cheikhniass"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2.7 install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_60"/>
+    <property name="java.ext.dirs" value="/Users/cheikhniass/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="AccountTransferServiceTest" name="testAccountTransferAccountNotFoundException" time="0.539">
+    <failure message="expected:&lt;409&gt; but was:&lt;500&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;409&gt; but was:&lt;500&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at AccountTransferServiceTest.testAccountTransferAccountNotFoundException(AccountTransferServiceTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Hibernate: drop table if exists account
+Hibernate: drop table if exists user
+Hibernate: create table account (accountNumber bigint not null auto_increment, accountType varchar(255) not null, balance double precision not null, user_id bigint, primary key (accountNumber)) engine=MyISAM
+Hibernate: create table user (id bigint not null auto_increment, email varchar(255) not null, name varchar(100) not null, primary key (id)) engine=MyISAM
+Hibernate: alter table account add constraint FK7m8ru44m93ukyb61dfxw0apf6 foreign key (user_id) references user (id)
+Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.name as name3_1_ from user user0_
+Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.name as name3_1_ from user user0_
+Hibernate: insert into account (accountType, balance, user_id) values (?, ?, ?)
+Hibernate: insert into account (accountType, balance, user_id) values (?, ?, ?)
+Hibernate: select account0_.accountNumber as accountN1_0_, account0_.accountType as accountT2_0_, account0_.balance as balance3_0_, account0_.user_id as user_id4_0_ from account account0_
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.name as name3_1_0_ from user user0_ where user0_.id=?
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.name as name3_1_0_ from user user0_ where user0_.id=?
+*****[Account(balance=1000.0, accountNumber=1, accountType=checking, user=User(id=1, email=Jack.frank@gmail.com, name=Jack Frank)), Account(balance=500.0, accountNumber=2, accountType=checking, user=User(id=2, email=Thomas.miller, name=Thomas Miller))]
+Hibernate: select account0_.accountNumber as accountN1_0_, account0_.accountType as accountT2_0_, account0_.balance as balance3_0_, account0_.user_id as user_id4_0_ from account account0_
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.name as name3_1_0_ from user user0_ where user0_.id=?
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.name as name3_1_0_ from user user0_ where user0_.id=?
+</system-out>
+    <system-err>Jun 04, 2019 8:22:37 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {5.4.3.Final}
+Jun 04, 2019 8:22:37 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager &lt;clinit&gt;
+INFO: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+Jun 04, 2019 8:22:37 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Jun 04, 2019 8:22:37 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:testdb;DB_CLOSE_ON_EXIT=FALSE]
+Jun 04, 2019 8:22:37 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {user=sa, password=****}
+Jun 04, 2019 8:22:37 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Jun 04, 2019 8:22:37 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections &lt;init&gt;
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+Jun 04, 2019 8:22:37 PM org.hibernate.dialect.Dialect &lt;init&gt;
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Jun 04, 2019 8:22:37 PM org.hibernate.validator.internal.util.Version &lt;clinit&gt;
+INFO: HV000001: Hibernate Validator 5.4.3.Final
+Jun 04, 2019 8:22:38 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4e2c95ee] for (non-JTA) DDL execution was not in auto-commit mode; the Connection &apos;local transaction&apos; will be committed and the Connection will be set into auto-commit mode.
+Jun 04, 2019 8:22:38 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7ff2b8d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection &apos;local transaction&apos; will be committed and the Connection will be set into auto-commit mode.
+SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+</system-err>
+  </testcase>
+  <testcase classname="AccountTransferServiceTest" name="testAccountTransferSuccess" time="0.039">
+    <failure message="expected:&lt;200&gt; but was:&lt;500&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;500&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at AccountTransferServiceTest.testAccountTransferSuccess(AccountTransferServiceTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.name as name3_1_ from user user0_
+Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.name as name3_1_ from user user0_
+Hibernate: insert into account (accountType, balance, user_id) values (?, ?, ?)
+Hibernate: insert into account (accountType, balance, user_id) values (?, ?, ?)
+Hibernate: select account0_.accountNumber as accountN1_0_, account0_.accountType as accountT2_0_, account0_.balance as balance3_0_, account0_.user_id as user_id4_0_ from account account0_
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.name as name3_1_0_ from user user0_ where user0_.id=?
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.name as name3_1_0_ from user user0_ where user0_.id=?
+*****[Account(balance=1000.0, accountNumber=1, accountType=checking, user=User(id=1, email=Jack.frank@gmail.com, name=Jack Frank)), Account(balance=500.0, accountNumber=2, accountType=checking, user=User(id=2, email=Thomas.miller, name=Thomas Miller)), Account(balance=1000.0, accountNumber=3, accountType=checking, user=User(id=1, email=Jack.frank@gmail.com, name=Jack Frank)), Account(balance=500.0, accountNumber=4, accountType=checking, user=User(id=2, email=Thomas.miller, name=Thomas Miller))]
+Hibernate: select account0_.accountNumber as accountN1_0_, account0_.accountType as accountT2_0_, account0_.balance as balance3_0_, account0_.user_id as user_id4_0_ from account account0_
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.name as name3_1_0_ from user user0_ where user0_.id=?
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.name as name3_1_0_ from user user0_ where user0_.id=?
+Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.name as name3_1_ from user user0_
+Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.name as name3_1_ from user user0_
+Hibernate: insert into account (accountType, balance, user_id) values (?, ?, ?)
+Hibernate: insert into account (accountType, balance, user_id) values (?, ?, ?)
+Hibernate: select account0_.accountNumber as accountN1_0_, account0_.accountType as accountT2_0_, account0_.balance as balance3_0_, account0_.user_id as user_id4_0_ from account account0_
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.name as name3_1_0_ from user user0_ where user0_.id=?
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.name as name3_1_0_ from user user0_ where user0_.id=?
+*****[Account(balance=1000.0, accountNumber=1, accountType=checking, user=User(id=1, email=Jack.frank@gmail.com, name=Jack Frank)), Account(balance=500.0, accountNumber=2, accountType=checking, user=User(id=2, email=Thomas.miller, name=Thomas Miller)), Account(balance=1000.0, accountNumber=3, accountType=checking, user=User(id=1, email=Jack.frank@gmail.com, name=Jack Frank)), Account(balance=500.0, accountNumber=4, accountType=checking, user=User(id=2, email=Thomas.miller, name=Thomas Miller)), Account(balance=1000.0, accountNumber=5, accountType=checking, user=User(id=1, email=Jack.frank@gmail.com, name=Jack Frank)), Account(balance=500.0, accountNumber=6, accountType=checking, user=User(id=2, email=Thomas.miller, name=Thomas Miller))]
+Hibernate: select account0_.accountNumber as accountN1_0_, account0_.accountType as accountT2_0_, account0_.balance as balance3_0_, account0_.user_id as user_id4_0_ from account account0_
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.name as name3_1_0_ from user user0_ where user0_.id=?
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.name as name3_1_0_ from user user0_ where user0_.id=?
+</system-out>
+  </testcase>
+  <testcase classname="AccountTransferServiceTest" name="testAccountTransferNotEnoughFunds" time="0.034">
+    <failure message="expected:&lt;409&gt; but was:&lt;500&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;409&gt; but was:&lt;500&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at AccountTransferServiceTest.testAccountTransferNotEnoughFunds(AccountTransferServiceTest.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.name as name3_1_ from user user0_
+Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.name as name3_1_ from user user0_
+Hibernate: insert into account (accountType, balance, user_id) values (?, ?, ?)
+Hibernate: insert into account (accountType, balance, user_id) values (?, ?, ?)
+Hibernate: select account0_.accountNumber as accountN1_0_, account0_.accountType as accountT2_0_, account0_.balance as balance3_0_, account0_.user_id as user_id4_0_ from account account0_
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.name as name3_1_0_ from user user0_ where user0_.id=?
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.name as name3_1_0_ from user user0_ where user0_.id=?
+*****[Account(balance=1000.0, accountNumber=1, accountType=checking, user=User(id=1, email=Jack.frank@gmail.com, name=Jack Frank)), Account(balance=500.0, accountNumber=2, accountType=checking, user=User(id=2, email=Thomas.miller, name=Thomas Miller)), Account(balance=1000.0, accountNumber=3, accountType=checking, user=User(id=1, email=Jack.frank@gmail.com, name=Jack Frank)), Account(balance=500.0, accountNumber=4, accountType=checking, user=User(id=2, email=Thomas.miller, name=Thomas Miller)), Account(balance=1000.0, accountNumber=5, accountType=checking, user=User(id=1, email=Jack.frank@gmail.com, name=Jack Frank)), Account(balance=500.0, accountNumber=6, accountType=checking, user=User(id=2, email=Thomas.miller, name=Thomas Miller)), Account(balance=1000.0, accountNumber=7, accountType=checking, user=User(id=1, email=Jack.frank@gmail.com, name=Jack Frank)), Account(balance=500.0, accountNumber=8, accountType=checking, user=User(id=2, email=Thomas.miller, name=Thomas Miller))]
+Hibernate: select account0_.accountNumber as accountN1_0_, account0_.accountType as accountT2_0_, account0_.balance as balance3_0_, account0_.user_id as user_id4_0_ from account account0_
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.name as name3_1_0_ from user user0_ where user0_.id=?
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.name as name3_1_0_ from user user0_ where user0_.id=?
+Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.name as name3_1_ from user user0_
+Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: insert into user (email, name) values (?, ?)
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.name as name3_1_ from user user0_
+Hibernate: insert into account (accountType, balance, user_id) values (?, ?, ?)
+Hibernate: insert into account (accountType, balance, user_id) values (?, ?, ?)
+Hibernate: select account0_.accountNumber as accountN1_0_, account0_.accountType as accountT2_0_, account0_.balance as balance3_0_, account0_.user_id as user_id4_0_ from account account0_
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.name as name3_1_0_ from user user0_ where user0_.id=?
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.name as name3_1_0_ from user user0_ where user0_.id=?
+*****[Account(balance=1000.0, accountNumber=1, accountType=checking, user=User(id=1, email=Jack.frank@gmail.com, name=Jack Frank)), Account(balance=500.0, accountNumber=2, accountType=checking, user=User(id=2, email=Thomas.miller, name=Thomas Miller)), Account(balance=1000.0, accountNumber=3, accountType=checking, user=User(id=1, email=Jack.frank@gmail.com, name=Jack Frank)), Account(balance=500.0, accountNumber=4, accountType=checking, user=User(id=2, email=Thomas.miller, name=Thomas Miller)), Account(balance=1000.0, accountNumber=5, accountType=checking, user=User(id=1, email=Jack.frank@gmail.com, name=Jack Frank)), Account(balance=500.0, accountNumber=6, accountType=checking, user=User(id=2, email=Thomas.miller, name=Thomas Miller)), Account(balance=1000.0, accountNumber=7, accountType=checking, user=User(id=1, email=Jack.frank@gmail.com, name=Jack Frank)), Account(balance=500.0, accountNumber=8, accountType=checking, user=User(id=2, email=Thomas.miller, name=Thomas Miller)), Account(balance=1000.0, accountNumber=9, accountType=checking, user=User(id=1, email=Jack.frank@gmail.com, name=Jack Frank)), Account(balance=500.0, accountNumber=10, accountType=checking, user=User(id=2, email=Thomas.miller, name=Thomas Miller))]
+Hibernate: select account0_.accountNumber as accountN1_0_, account0_.accountType as accountT2_0_, account0_.balance as balance3_0_, account0_.user_id as user_id4_0_ from account account0_
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.name as name3_1_0_ from user user0_ where user0_.id=?
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.name as name3_1_0_ from user user0_ where user0_.id=?
+</system-out>
+  </testcase>
+</testsuite>

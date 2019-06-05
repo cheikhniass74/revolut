@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="com.money.transfer:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/com_money_transfer_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="com.money.transfer/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="com.money.transfer" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+          <element id="library" level="project" name="Maven: asm:asm:3.1" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.17.1" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-server:1.17.1" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-servlet:1.17.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
